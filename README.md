@@ -13,9 +13,12 @@ It includes:
 - application of predefined thresholds for:
     - confidence scores (suggestion: 0.75)
     - SDG relevance per company based on the distribution (suggestion: 0.737)
- 
+
+# Pre-requirements
+You need to download the following via command line:
+python -m spacy download en_core_web_sm
     
-# usage
+# Usage
 
 To use SDG SpoMo clone the repository and change the config.
 
@@ -32,7 +35,4 @@ The folder with PDF company report data needs to have the following structure:
 
 Thresholds can be adjusted in the config.
 
-Run 
-1. process all PDFs
-2. add TtS
-3. apply Thresholds
+Run main()
